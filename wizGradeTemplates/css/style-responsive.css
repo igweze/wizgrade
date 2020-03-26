@@ -1,0 +1,1032 @@
+@media (min-width: 980px) {
+    /*-----*/
+    .custom-bar-chart {
+        margin-bottom: 40px;
+    }
+	.dropdown-menu-top {
+		display: none;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	#wizGrade-modal-filter .modal-dialog {
+ 	 	width: 95%; /* or whatever you wish */
+	}
+	#wizGrade-modal-mail .modal-dialog {
+  		width: 95%; /* or whatever you wish */
+	}
+	
+	.top-school-info, .dropdown-menu-top{
+		display: none;
+	}
+    .mail-box .sm-side {
+        width: 30%;
+    }
+
+    .mail-box .lg-side {
+        width: 70%;
+    }
+    /*-----*/
+    .custom-bar-chart {
+        margin-bottom: 40px;
+    } 
+	
+	.profile-content {
+		padding: 0px; 
+		width:100%;
+		margin-top: 30px;		
+	}
+	
+	.profile-userpic{
+		height: 130px !important;
+		width: 130px !important;
+		margin: 0px auto;
+	}		
+
+
+	.grid li {
+		width: 40%;
+	}
+	
+	.grid li img {
+		height:230px;
+	}
+
+	.fb-comments .cmt-details {
+		margin-left: 14%;
+	}
+
+	.cmt-form { 
+		width: 80%; 
+	}
+	
+	.cmt-form textarea{
+		 
+	}	
+
+	.tbhead-title h3{
+		font-size: 14px;
+		line-height: 7px !important;	 
+	}
+	
+	.tbhead-title h4{
+		font-size: 14px;
+		line-height: 7px !important;
+		margin-bottom: 3px !important; 
+	}
+		
+}
+
+@media (max-width: 768px) {
+
+	#wizGrade-modal-filter .modal-dialog {
+ 	 	width: 95%; /* or whatever you wish */
+	}
+	#wizGrade-modal-mail .modal-dialog {
+  		width: 95%; /* or whatever you wish */
+	}
+
+    .header {
+        position: absolute;
+    }	
+	
+    /*sidebar*/
+
+
+    #sidebar {
+        display: none;
+    }
+
+    .sidebar-close #sidebar {
+        height: auto;
+        /*overflow: hidden;*/
+        overflow-y: auto;
+        position: absolute;
+        width: 100%;
+        z-index: 1001;
+        display: block;
+    }
+
+	.top-school-info, .dropdown-profile-top, .dropdown-menu-notification, .middle-menu-div  {
+		display: none;
+	}	
+
+    /* body container */
+    #main-content {
+        margin: 0px!important;
+        position: none !important;
+    }
+
+    #sidebar > ul > li > a > span {
+        line-height: 35px;
+    }
+
+    #sidebar > ul > li {
+        margin: 0 10px 5px 10px;
+    }
+    #sidebar > ul > li > a {
+        height:35px;
+        line-height:35px;
+        padding: 0 10px;
+        text-align: left;
+    }
+    #sidebar > ul > li > a i{
+        /*display: none !important;*/
+    }
+
+    .mail-info, .mail-info:hover {
+        display: none !important;
+    }
+    #sidebar ul > li > a .arrow, #sidebar > ul > li > a .arrow.open {
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    #sidebar ul > li.active > a .arrow, #sidebar ul > li > a:hover .arrow, #sidebar ul > li > a:focus .arrow,
+    #sidebar > ul > li.active > a .arrow.open, #sidebar > ul > li > a:hover .arrow.open, #sidebar > ul > li > a:focus .arrow.open{
+        margin-top: 15px;
+    }
+
+    #sidebar > ul > li > a, #sidebar > ul > li > ul.sub > li {
+        width: 100%;
+    }
+    #sidebar > ul > li > ul.sub > li > a {
+        background: transparent !important ;
+    }
+    #sidebar > ul > li > ul.sub > li > a:hover {
+        /*background: #4A8BC2 !important ;*/
+    }
+
+
+    /* sidebar */
+    #sidebar {
+        margin: 0px !important;
+    }
+
+    /* sidebar collabler */
+    #sidebar .btn-navbar.collapsed .arrow {
+        display: none;
+    }
+
+    #sidebar .btn-navbar .arrow {
+        position: absolute;
+        right: 35px;
+        width: 0;
+        height: 0;
+        top:48px;
+        border-bottom: 15px solid #282e36;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+    }
+
+
+    /*---------*/
+
+    .modal-footer .btn {
+        margin-bottom: 0px !important;
+    }
+
+    .btn {
+        margin-bottom: 5px;
+    } 
+	
+    .mail-box aside {
+        display: block;
+    }
+
+    .mail-box .sm-side , .mail-box .lg-side{
+        width: 100% ;
+    }
+
+    /* full calendar fix */
+    .fc-header-right {
+        left:25px;
+        position: absolute;
+    }
+
+    .fc-header-left .fc-button {
+        margin: 0px !important;
+        top: -10px !important;
+    }
+
+    .fc-header-right .fc-button {
+        margin: 0px !important;
+        top: -50px !important;
+    }
+
+    .fc-state-active, .fc-state-active .fc-button-inner, .fc-state-hover, .fc-state-hover .fc-button-inner {
+        background: none !important;
+        color: #FFFFFF !important;
+    }
+
+    .fc-state-default, .fc-state-default .fc-button-inner {
+        background: none !important;
+    }
+
+    .fc-button {
+        border: none !important;
+        margin-right: 2px;
+    }
+
+    .fc-view {
+        top: 0px !important;
+    }
+
+    .fc-button .fc-button-inner {
+        margin: 0px !important;
+        padding: 2px !important;
+        border: none !important;
+        margin-right: 2px !important;
+        background-color: #fafafa !important;
+        background-image: -moz-linear-gradient(top, #fafafa, #efefef) !important;
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#efefef)) !important;
+        background-image: -webkit-linear-gradient(top, #fafafa, #efefef) !important;
+        background-image: -o-linear-gradient(top, #fafafa, #efefef) !important;
+        background-image: linear-gradient(to bottom, #fafafa, #efefef) !important;
+        filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fafafa', endColorstr='#efefef', GradientType=0) !important;
+        -webkit-box-shadow: 0 1px 0px rgba(255, 255, 255, .8) !important;
+        -moz-box-shadow: 0 1px 0px rgba(255, 255, 255, .8) !important;
+        box-shadow: 0 1px 0px rgba(255, 255, 255, .8) !important;
+        -webkit-border-radius: 3px !important;
+        -moz-border-radius: 3px !important;
+        border-radius: 3px !important;
+        color: #646464 !important;
+        border: 1px solid #ddd !important;
+        text-shadow: 0 1px 0px rgba(255, 255, 255, .6) !important;
+        text-align: center;
+    }
+
+    .fc-button.fc-state-disabled .fc-button-inner {
+        color: #bcbbbb !important;
+    }
+
+    .fc-button.fc-state-active .fc-button-inner {
+        background-color: #e5e4e4 !important;
+        background-image: -moz-linear-gradient(top, #e5e4e4, #dddcdc) !important;
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e4e4), to(#dddcdc)) !important;
+        background-image: -webkit-linear-gradient(top, #e5e4e4, #dddcdc) !important;
+        background-image: -o-linear-gradient(top, #e5e4e4, #dddcdc) !important;
+        background-image: linear-gradient(to bottom, #e5e4e4, #dddcdc) !important;
+        filter: progid:dximagetransform.microsoft.gradient(startColorstr='#e5e4e4', endColorstr='#dddcdc', GradientType=0) !important;
+    }
+
+    .fc-content {
+        margin-top: 50px;
+    }
+
+    .fc-header-title h2 {
+        line-height: 40px !important;
+        font-size: 12px !important;
+    }
+
+    .fc-header {
+        margin-bottom:0px !important;
+    }
+
+    /*--*/
+
+    .stepy-titles li {
+        margin: 10px 3px;
+    }
+
+    .mail-option .btn {
+        margin-bottom: 0;
+    }
+
+    .boxed-page .container #sidebar {
+        position:absolute;
+    }
+
+    /*--horizontal menu--*/
+    .full-width .navbar-toggle {
+        border: 1px solid #eaeaea;
+    }
+    .full-width .navbar-toggle .icon-bar {
+        background: #c7c7c7;
+    }
+
+    .full-width .navbar-toggle {
+        float: left;
+        margin-top: 12px;
+    }
+
+    .horizontal-menu {
+        float: left;
+        margin-left:0px;
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    .top-nav {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+
+    .horizontal-menu .navbar-nav > li > a {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    /*-----*/
+    .custom-bar-chart {
+        margin-bottom: 40px;
+    }
+
+    /*menu icon plus minus*/
+    .dcjq-icon {
+        top: 10px;
+    }
+    ul.sidebar-menu li ul.sub li a {
+        padding: 0;
+    }
+
+    /*---*/
+
+    .img-responsive {
+        width: 100%;
+    }
+	
+	.profile-userpic{
+		height: 110px !important;
+		width: 110px !important;
+		margin: 0px auto;
+	}		
+	
+	.rs-header-img{
+		width:50px;
+		height:50px;
+	}
+	
+	.rs-header-side{
+		width:20%; 
+	}
+	
+	.rs-header-center{
+		width:60%; 
+	}	
+	
+	.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+    	padding: 3px !important;
+	}
+
+	.grid li {
+		width: 40%;
+	}
+	
+	.grid li img {
+		height:230px;
+	}
+
+	.fb-comments .cmt-details {
+		margin-left: 14%;
+	}
+
+	.cmt-form { 
+		width: 70%; 
+	}
+	
+	.cmt-form textarea{
+		 
+	}		
+
+	.tbhead-title h3{
+		font-size: 14px;
+		line-height: 4px !important;	 
+	}
+	
+	.tbhead-title h4{
+		font-size: 14px;
+		line-height: 4px !important;
+		margin-bottom: 3px !important; 
+	} 	
+
+}
+
+
+
+@media (max-width: 480px) {
+
+	body { 
+		font-size: 12px;
+	}
+	
+	.wrapper{
+		padding: 5px !important;		
+	}
+
+	a.logo {
+		font-size: 22px;        
+	}
+				
+	.panel-heading { 
+		font-size:12px; 
+		padding: 5px;
+		text-transform:capitalize;	
+		margin:0px !important;
+	}
+	
+	.panel-body { 
+		font-size: 12px;
+		margin:0px !important;
+		padding:5px !important;  	
+	}	
+	
+	#wizgrade-page-div{
+		padding: 0px !important;
+	} 
+		
+	#wizGrade-modal-filter .modal-dialog {
+ 	 	width: 95%; /* or whatever you wish */
+	}
+	
+	#wizGrade-modal-mail .modal-dialog {
+  		width: 95%; /* or whatever you wish */
+	}
+	
+	.top-school-info, .dropdown-profile-top, .dropdown-menu-notification, .middle-menu-div  {
+		display: none;
+	}
+	
+	.user-nav-details{
+		display:none;
+	}
+	
+    .logo-menu, .search, .dont-show , .inbox-head .sr-input, .inbox-head .sr-btn, .wizGrade-clock, #sidebar, .slide-page, .hide-res, .flag-menu{
+        display: none;
+    }
+
+    .mail-box aside {
+        display: block;
+    }
+
+    .mail-box .sm-side , .mail-box .lg-side, {
+        width: 100% ;
+    }
+	
+    #top_menu .nav > li, ul.top-menu > li {
+        float: right;
+    }
+
+	ul.top-menu > li > a {
+		margin-right: 6px;
+		margin-top:	11px  !important;	
+	}
+
+	ul.top-menu > li > a i{ 
+		font-size: 22px; 
+	}	 
+	
+	ul.top-menu > li > a:hover i, ul.top-menu > li > a:focus i{    
+		font-size: 24px; 
+	}	
+	
+    .hidden-phone {
+        display: none !important;
+    }
+
+    .dataTables_filter {
+        float: left;
+    }
+
+    .dataTables_info {
+        margin-bottom: 10px;
+    }
+
+    .mail-option .btn {
+        margin-bottom: 0;
+    }
+
+    .mail-option .inbox-pagination {
+        margin-top: 10px;
+        float: left;
+    }
+
+    .chart-position {
+       margin-top: 0px;
+     }
+    /*--horizontal menu--*/
+    .full-width .navbar-toggle {
+        border: 1px solid #eaeaea;
+    }
+    .full-width .navbar-toggle .icon-bar {
+        background: #c7c7c7;
+    }
+
+    .full-width .navbar-toggle {
+        float: left;
+        margin-top: 12px;
+    }
+
+    .horizontal-menu {
+        float: left;
+        margin-left:0px;
+        width: 100%;
+    }
+
+    .top-nav {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+
+    .horizontal-menu .navbar-nav > li > a {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .ms-container {
+        width: 100%;
+    }
+
+    .cmt-form {
+        display: inline-block;
+        width: 84%;
+    }
+
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+        background-color: #ccc;
+        border-color:#ccc ;
+    }
+	
+	.profile-content {
+		padding: 0px;
+		width:100%; 
+		margin-top: 10px;		
+	}
+
+	.dropdown-menu.extended {
+		left: -47%!important;
+		transform:translateX(-47%)!important; 
+		width: 235px !important;
+	}	
+	
+	.shopping-cart-box{ 
+		position: absolute;
+		left:0;
+		right:0;
+		margin-left:auto;
+		margin-right:3px;
+		width: 250px !important;
+		padding: 4px;	 
+		margin-top: 10px;
+		display:none;
+		font-size:13px;
+	}
+
+	.shopping-cart-box h3{ 
+		font-size: 13px;
+	} 
+	
+	.wiztable-resp tbody tr:nth-child(even) {
+   		display:table-row;
+    	background:#F7F7F7;
+  	}	
+
+	.profile-userpic{
+		height: 90px !important;
+		width: 90px !important;
+		margin: 0px auto;
+	}		
+ 
+ 	.lock-div {
+		margin: 10px auto;
+		max-width: none;
+		width:90%;		
+		padding: 10px 15px; 
+	}
+	 
+	.user-thumb img {
+		height:100px;
+		width:100px;	
+	}	
+	
+	.rs-header-img{
+		width:50px;
+		height:50px;
+	}
+	
+	.rs-header-side{
+		width:20%; 
+	}
+	
+	.rs-header-center{
+		width:60%; 
+	}	
+ 
+	.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+    	padding: 3px !important;
+		font-size: 12px !important;
+	}			
+	
+	.rs-padd{ 
+		text-align: center; 
+		padding-left:0px !important;
+	}
+
+	.grid li {
+		width: 100%;
+	}
+	
+	.grid li img {
+		height:250px;
+	}
+	
+	.fb-user-thumb img {
+		width: 50px;
+		height: 50px; 
+	}
+	
+	.fb-user-details h3 {
+		font-size: 14px; 
+	}
+		
+	.fb-user-top-title {
+		margin: 4px;
+		font-size: 12px; 
+	}
+
+	.fb-status-container {
+		margin: 0 -7px 0 -7px;
+		padding: 0 7px;
+	}
+
+	.fb-comments .cmt-details {
+		margin-left: 20%;
+	}
+
+	.cmt-form { 
+		width: 70%; 
+	}
+	
+	.cmt-form textarea{
+		 
+	}
+
+	.rs-header-side{
+		width:20%;
+	}
+	
+	.rs-header-center{
+		width:80%;
+	}
+	
+	.tbhead-title h3{
+		font-size: 13px;
+		line-height: 4px !important;	 
+	}
+	
+	.tbhead-title h4{
+		font-size: 13px;
+		line-height: 4px !important;
+		margin-bottom: 3px !important; 
+	} 
+				
+	.mob-gap{
+		clear:both;
+		margin-top: 20px !important; 	
+	}
+	
+	.error-wrapper .icon-404, .error-wrapper .install-icon{
+		width: 90%;
+		height: 340px;    
+	}  
+	 
+	.error-wrapper h1 {
+		font-size: 70px;
+		margin: -30px 0 0 0;  
+	}
+	
+	.error-wrapper h2 {
+		font-size: 14px; 
+	}
+
+	#timer-box { 
+		font-size: 40px;
+		margin-bottom: 15px; 
+	}		
+			
+	.questionImg{
+		margin: 3px !important;  
+		width:100% !important;
+		height:180px !important; 
+	}	
+					
+	.site-footer a{ 
+		font-size: 13px !important;
+	}	 
+}
+
+@media (max-width:320px) {
+
+	body { 
+		font-size: 12px;
+	}
+	
+	.wrapper{
+		padding: 5px !important;		
+	}
+	
+	a.logo {
+		font-size: 20px;        
+	}	
+				
+	.panel-heading { 
+		font-size: 10px; 
+		padding: 5px;
+		text-transform:capitalize;	
+		margin:0px !important;
+	}
+	
+	.panel-body { 
+		font-size: 11px;
+		margin:0px !important;
+		padding:5px !important;  	
+	}
+
+	
+	#wizgrade-page-div{
+		padding: 0px !important;
+	} 
+		
+	#wizGrade-modal-filter .modal-dialog {
+ 	 	width: 95%; /* or whatever you wish */
+	}
+	
+	#wizGrade-modal-mail .modal-dialog {
+  		width: 95%; /* or whatever you wish */
+	}
+		
+	.user-nav-details{
+		display:none;
+	}
+	 
+    .login-link a {
+        padding: 15px 17px !important;
+    }
+
+    .logo-menu, .search, .dont-show, .inbox-head .sr-input, .inbox-head .sr-btn, .wizGrade-clock, #sidebar, .slide-page, .hide-res, .fb-hide, .flag-menu, {
+        display: none;
+    }
+
+    .mail-box aside {
+        display: block ;
+    }
+
+    .mail-box .sm-side , .mail-box .lg-side{
+        width: 100%;
+    }
+	.expand-100{
+		width: 100% !important;
+		float:left !important;
+		margin:3px auto;
+	}	
+
+    #top_menu .nav > li, ul.top-menu > li {
+        float: right;		
+    }
+
+	ul.top-menu > li > a {
+		margin-right: 5px;
+		margin-top:	11px  !important;	
+	}
+
+	ul.top-menu > li > a i{ 
+		font-size: 22px; 
+	}	 
+	
+	ul.top-menu > li > a:hover i, ul.top-menu > li > a:focus i{    
+		font-size: 24px; 
+	}	
+	
+    .hidden-phone {
+        display: none !important;
+    }
+
+    .dataTables_filter {
+        float: left;
+    }
+
+    .dataTables_info {
+        margin-bottom: 10px;
+    }
+
+    .mail-option .btn {
+        margin-bottom: 0;
+    }
+
+    .mail-option .inbox-pagination {
+        margin-top: 10px;
+        float: left;
+    }
+
+    .chart-position {
+        margin-top: 0px;
+    }
+
+    .lock-wrapper {
+        margin: 10% auto;
+        max-width: 310px;
+    }
+    .lock-input {
+        width: 82%;
+    }
+
+    .cmt-form {
+        display: inline-block;
+        width: 75%;
+    }
+
+    mid-side footer .btn-group {
+        display: none;
+    }
+
+    .stepy-titles li.current-step div, .stepy-titles li div {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    } 
+	
+	.profile-content {
+		padding: 0px; 
+		width:100%;
+		margin-top: 10px;		
+	}
+
+	.dropdown-menu.extended {
+		left: -37%!important;
+		transform:translateX(-37%)!important;
+		width: 230px !important;
+	}		
+
+	.shopping-cart-box{ 
+		position: absolute;
+		left:3% !important;;
+		top: 30px;
+		margin-left:auto;
+		margin-right:3px;
+		width: 230px !important;
+		padding: 4px;	 
+		margin-top: 10px;
+		display:none;
+		font-size: 12px;
+	}
+
+	.shopping-cart-box h3{ 
+		font-size: 13px;
+	} 
+	
+	.wiztable-resp tbody tr:nth-child(even) {
+   		display:table-row;
+    	background:#F7F7F7;
+  	}
+	
+	.profile-userpic{
+		height: 90px !important;
+		width: 90px !important;
+		margin: 0px auto;
+	}	
+
+	.lock-div {
+		margin: 10px auto;
+		max-width: none; 
+		width:90%;
+		padding: 10px 15px; 
+	}
+	 
+	.user-thumb img {
+		height:100px;
+		width:100px;	
+	}
+	
+	.rs-header-img{
+		width:50px;
+		height:50px;
+	}
+	
+	.rs-header-side{
+		width:20%; 
+	}
+	
+	.rs-header-center{
+		width:60%; 
+	}
+ 
+	.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+    	padding: 2px !important;
+		font-size:10px !important;
+	}			
+
+	.rs-padd{ 
+		text-align: center; 
+		padding-left:0px !important;
+	}
+		
+	.mob-gap{
+		clear:both;
+		margin-top: 20px !important; 	
+	}
+
+	.grid li {
+		width: 100%;
+	}
+
+	.grid li img {
+		height:250px;
+	}
+	
+	.fb-user-thumb img {
+		width: 50px;
+		height: 50px; 
+	}
+	
+	.fb-user-details h3 {
+		font-size: 13px; 
+	}
+		
+	.fb-user-top-title {
+		margin: 4px;
+		font-size: 11px; 
+	}
+
+	.fb-status-container {
+		margin: 0 -7px 0 -7px;
+		padding: 0 7px;
+	}
+
+	.fb-comments .cmt-details {
+		margin-left: 27%;
+	}
+
+	.cmt-form { 
+		width: 65%; 
+	}
+	
+	.cmt-form textarea{
+		 
+	}
+
+	.rs-header-side{
+		width:20%;
+	}
+	
+	.rs-header-center{
+		width:80%;
+	}
+	
+	.tbhead-title h3{
+		font-size: 12px;
+		line-height: 4px !important;	 
+	}
+	
+	.tbhead-title h4{
+		font-size: 12px;
+		line-height: 4px !important;
+		margin-bottom: 3px !important; 
+	} 
+	
+	.error-wrapper .icon-404, .error-wrapper .install-icon{
+		width: 90%;
+		height: 340px;    
+	}  
+		 
+	.error-wrapper h1 {
+		font-size: 60px;
+		margin: -30px 0 0 0; 
+	}
+	 
+	.error-wrapper h2 {
+		font-size: 14px; 
+	}
+
+	#timer-box { 
+		font-size: 40px;
+		margin-bottom: 15px; 
+	}
+			
+	.questionImg{
+		margin: 3px !important;  
+		 width:100% !important;
+		 height:180px !important; 
+	}	
+	
+	.site-footer a{ 
+		font-size: 14px !important;
+	}	
+}
+
+.capWords{
+	text-transform:capitalize !important;	
+}
+
+.uppWords{
+	text-transform: uppercase !important;	
+}
+
+.lowWords{
+	text-transform: lowercase !important;	
+}
+.logo-menu{
+	margin-top:-5px !important;
+}
