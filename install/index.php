@@ -305,7 +305,8 @@
 						</table>	
 						  
 							<div class="form-group">							
-							<center><input type="checkbox" required="required"  value="yes" name="acceptTerm"  /></center>
+							<center><input type="checkbox" required="required"  value="yes" name="acceptTerm" 
+							id="acceptTerm"/></center>
 							<label class="control-label"> wizGrade is Licensed under the Apache License, Version 2.0 <br/>
 							By checking the button above, you have agreed with the
 							wizGrade license you downloaded. Meanwhile, you are not allowed to remove or edit wizGrade logo, name or 
@@ -332,22 +333,26 @@
 						
 							<h3> Admin. Information</h3>
 							<div class="form-group">
-							<label class="control-label">Admin First Name</label>
-							<input maxlength="50" type="text" name="fname" required="required" class="form-control" placeholder="Please Enter Your First Name">
+								<label class="control-label">Admin First Name</label>
+								<input maxlength="50" type="text" name="fname" id="fname" required="required" 
+								class="form-control" placeholder="Please Enter Your First Name">
 							</div>
 							<div class="form-group">
-							<label class="control-label">Admin Last Name</label>
-							<input maxlength="50" type="text" name="lname" required="required" class="form-control" placeholder="Please Enter Your Last Name">
+								<label class="control-label">Admin Last Name</label>
+								<input maxlength="50" type="text" name="lname" id="lname" required="required" 
+								class="form-control" placeholder="Please Enter Your Last Name">
 							</div>
 							<div class="form-group">
-							<label class="control-label">Admin Email</label>
-							<input maxlength="50" type="email" name="email" required="required" class="form-control" placeholder="Please Enter Admin Email">
-							<span class="label label-danger">NOTE!</span>
-							<span style="color:#ff0000"> This is admin username and also use for password recovery.</span>								 
+								<label class="control-label">Admin Email</label>
+								<input maxlength="50" type="email" name="email" id="email" required="required" 
+								class="form-control" placeholder="Please Enter Admin Email">
+								<span class="label label-danger">NOTE!</span>
+								<span style="color:#ff0000"> This is admin username and also use for password recovery.</span>								 
 							</div>							
 							<div class="form-group">
-							<label class="control-label">Admin Password</label>
-							<input maxlength="15" type="password" name="password" required="required" class="form-control" placeholder="Please Enter Admin Password">
+								<label class="control-label">Admin Password</label>
+								<input maxlength="15" type="password" name="password" id="password" required="required" 
+								class="form-control" placeholder="Please Enter Admin Password">
 							</div>
 							<button class="btn btn-primary prevBtn btn-lg pull-left" type="button">Back</button> 
 							<button class="btn btn-primary nextBtn btn-lg pull-right" type="button">Next</button>
@@ -366,31 +371,37 @@
 							
 							<h3> Database Configuration</h3>
 							<div class="form-group">
-							<label class="control-label">Site Full Url</label>
-							<input maxlength="100" type="text" name="url" required="required" class="form-control" 
-							placeholder="Please Enter Your Site Url" value="<?php echo $pageUrl; ?>">
-							<span class="label label-danger">NOTE!</span>
-							<span style="color:#ff0000">e.g http://www.wizgrade.com or http://www.school.wizgrade.com.</span>	
+								<label class="control-label">Site Full Url</label>
+								<input maxlength="100" type="text" name="url" id="url" required="required" 
+								class="form-control" placeholder="Please Enter Your Site Url" value="<?php echo $pageUrl; ?>">
+								<span class="label label-danger">NOTE!</span>
+								<span style="color:#ff0000">e.g http://www.wizgrade.com or http://www.school.wizgrade.com.</span>	
 							</div>
 							<div class="form-group">
-							<label class="control-label">Database Name</label>
-							<input maxlength="30" type="text" name="dname" required="required" class="form-control" placeholder="Please Enter Your Database Name">
-							<span class="label label-danger">NOTE!</span>
-							<span style="color:#ff0000"> Please manually create your database and enter its name here.</span>	
+								<label class="control-label">Database Name</label>
+								<input maxlength="30" type="text" name="dname" id="dname" required="required" 
+								class="form-control" placeholder="Please Enter Your Database Name">
+								<span class="label label-danger">NOTE!</span>
+								<span style="color:#ff0000"> Please manually create your database and enter its name 
+								here.</span>	
 							</div>
 							<div class="form-group">
-							<label class="control-label">Database Host</label>
-							<input maxlength="30" type="text" name="dhost" value="localhost" required="required" class="form-control" placeholder="Please Enter Your Database Host">
+								<label class="control-label">Database Host</label>
+								<input maxlength="30" type="text" name="dhost" id="dhost" value="localhost" 
+								required="required" class="form-control" placeholder="Please Enter Your Database Host">
 							</div>
 							<div class="form-group">
-							<label class="control-label">Database User Name</label>
-							<input maxlength="30" type="text" name="duser" required="required" class="form-control" placeholder="Please Enter Your Database User Name">
-							<span class="label label-danger">NOTE!</span>
-							<span style="color:#ff0000"> Please grant all priviledges to this user for installation to work 100%.</span>	
+								<label class="control-label">Database User Name</label>
+								<input maxlength="30" type="text" name="duser" id="duser" required="required" 
+								class="form-control" placeholder="Please Enter Your Database User Name">
+								<span class="label label-danger">NOTE!</span>
+								<span style="color:#ff0000"> Please grant all priviledges to this user for 
+								installation to work 100%.</span>	
 							</div>
 							<div class="form-group">
-							<label class="control-label">Database Password</label>
-							<input maxlength="30" type="text" name="dpassword" required="required" class="form-control" placeholder="Please Enter Your Database Password"> 
+								<label class="control-label">Database Password</label>
+								<input maxlength="30" type="text" name="dpassword" id="dpassword" required="required" 
+								class="form-control" placeholder="Please Enter Your Database Password"> 
 							</div>							
 							<input type="hidden" name="iData" value="install" /> 
 							<button class="btn btn-primary prevBtn btn-lg pull-left" type="button">Back</button>
@@ -399,7 +410,7 @@
 							onclick="document.getElementById('installwizGrade').style.display = 'none';
 							document.getElementById('install-loader').style.display = 'block';
 							setTimeout(function(){ document.getElementById('installwizGrade').style.display = 'block';
-							document.getElementById('install-loader').style.display = 'none'; }, 30000);">Next</button>
+							document.getElementById('install-loader').style.display = 'none'; }, 3000);">Next</button>
 							<i class="fa fa-spinner fa-pulse fa-3x fa-fw pull-right display-none install-loader" id="install-loader"></i>
 							<span class="sr-only">Loading...</span>
 							</div>
@@ -456,12 +467,7 @@
 
 
 		<script type="text/javascript"> 
-				  
-				$(document).ready(function () {
-					
-					<?php if($app_error){  echo "$('#appRequired').hide(100);";  } ?> 
-				
-				});
+				 
 				
 				function showPageLoader(){  /* show loading image */
 
@@ -477,6 +483,14 @@
 				};
 				
 				$(document).ready(function () {
+					
+					<?php if($app_error){  echo "$('#appRequired').hide(100);";  } ?> 
+					
+					function isValidEmailAddress(emailAddress) {
+						var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+						return pattern.test(emailAddress);
+					}
+					
 					var navListItems = $('div.setup-panel div a'),
 						  allWells = $('.setup-content'),
 						  allNextBtn = $('.nextBtn'),
@@ -527,30 +541,76 @@
 
 					$('div.setup-panel div a.btn-primary').trigger('click'); 
 										
-				
-					$('body').on('click','#installwizGrade',function(){  /* install wizGrade Script */
-													
-						$('#frmwizGrade').submit(function(event) {
-								
-							event.stopImmediatePropagation();
-										
-							$('#loader-background').show();
-							$('#installwizGrade').fadeOut(100); 
-							$('.install-loader').fadeIn(100); 
-							
-							$('html, body').animate({ scrollTop:  $('#iBox').offset().top - 150 }, 'slow');
-												
-							$.post('installManger.php', $(this).find('input, select').serialize(), function(data) { 
-								
-								$("#iBox").html(data); 
-							
-							});
-							
-							return false;
 					
-						}); 							
+					$('body').on('click','#installwizGrade',function(){  /* install wizGrade Script */
+					
+						var email = $("#email").val(); 
+						
+						if($('#acceptTerm').is(":not(:checked)")){
+							
+							<?php echo "$infoMsg1 Ooooooooops, please accept our terms $sEnd1"; ?>
+							
+						}else if($('#fname').val() == ""){
+						
+							<?php echo "$infoMsg1 Ooooooooops, please enter first name $sEnd1"; ?>
+											   
+						}else if($('#lname').val() == ""){
+						
+							<?php echo "$infoMsg1 Ooooooooops, please enter last name $sEnd1"; ?>
+											   
+						}else if((email == "") || (!isValidEmailAddress(email))){
+						
+							<?php echo "$infoMsg1 Ooooooooops, please enter a valid email address $sEnd1"; ?>
+											   
+						}else if($('#password').val() == ""){
+						
+							<?php echo "$infoMsg1 Ooooooooops, please enter a password $sEnd1"; ?>
+											   
+						}else if($('#url').val() == ""){
+						
+							<?php echo "$infoMsg1 Ooooooooops, please enter a valid full url $sEnd1"; ?>
+											   
+						}else if($('#dname').val() == ""){
+						
+							<?php echo "$infoMsg1 Ooooooooops, please enter database name $sEnd1"; ?>
+											   
+						}else if($('#dhost').val() == ""){
+						
+							<?php echo "$infoMsg1 Ooooooooops, please enter database host $sEnd1"; ?>
+											   
+						}else if($('#duser').val() == ""){
+						
+							<?php echo "$infoMsg1 Ooooooooops, please enter database user name $sEnd1"; ?>
+											   
+						}else if($('#dpassword').val() == ""){
+						
+							<?php echo "$infoMsg1 Ooooooooops, please enter database  password $sEnd1"; ?>
+											   
+						}else{ 
+							
+							$('#frmwizGrade').submit(function(event) {
+									
+								event.stopImmediatePropagation();
+											
+								$('#loader-background').show();
+								$('#installwizGrade').fadeOut(100); 
+								$('.install-loader').fadeIn(100); 
+								
+								$('html, body').animate({ scrollTop:  $('#iBox').offset().top - 150 }, 'slow');
+													
+								$.post('installManger.php', $(this).find('input, select').serialize(), function(data) { 
+									
+									$("#iBox").html(data); 
+								
+								});
+								
+								return false;
+						
+							});
+
+						}	
 										
-					});
+					}); 
 				
 				});
 		</script> 
