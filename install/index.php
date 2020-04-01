@@ -308,9 +308,9 @@
 							<center><input type="checkbox" required="required"  value="yes" name="acceptTerm" 
 							id="acceptTerm"/></center>
 							<label class="control-label"> wizGrade is Licensed under the Apache License, Version 2.0 <br/>
-							By checking the button above, you have agreed with the
-							wizGrade license you downloaded. Meanwhile, you are not allowed to remove or edit wizGrade logo, name or 
-							copyright unless you have a valid license from wizGrade. Thanks</label>
+							By checking the button above, you have agreed with the wizGrade license you downloaded. 
+							Meanwhile, you are not allowed to remove or edit wizGrade logo,  name or  copyright unless 
+							you have a valid license from wizGrade. Thanks</label>
 							</div> 
 
 							<button class="btn btn-primary nextBtn btn-lg pull-right" id="appRequired" type="button">Next</button>
@@ -402,7 +402,21 @@
 								<label class="control-label">Database Password</label>
 								<input maxlength="30" type="text" name="dpassword" id="dpassword" required="required" 
 								class="form-control" placeholder="Please Enter Your Database Password"> 
-							</div>							
+							</div>
+							
+							<div class="form-group">
+								<label class="control-label">Installation Type</label>
+								<select name="install"  id="install" class="form-control">
+								<option value="1">Auto (Default)</option>
+								<option value="2">Manual</option> 
+								</select>
+								<span class="label label-danger">NOTE!</span>
+								<span style="color:#ff0000"> If you are having issues with auto try manual installation. 
+								In Manual installation, <b>locate & open install folder</b> and manually import <b>wizGrade.sql</b> into your 
+								database before you continue or click Next.</span>	
+							</div>
+							
+														
 							<input type="hidden" name="iData" value="install" /> 
 							<button class="btn btn-primary prevBtn btn-lg pull-left" type="button">Back</button>
 							<button class="btn btn-primary nextBtn btn-lg pull-right display-none" id="installDB" type="button">N</button>

@@ -297,7 +297,7 @@ $newInfo = "<?php \n\n
 
 
 			if (fwrite($installFile, $newInfo) > 0 ){
-							
+				fclose($installFile);			
 				$msg_s = "<i class='fa fa-check fa-3x pull-left'></i> <span class='sr-only'>Loading...</span>
 				<b>wizGrade</b> installation is almost completed!. <br/> 
 				<a href='$wizGradeInstallDir'  target='_top'><b>
