@@ -45,7 +45,7 @@ if(!session_id()){
 				$schLevel = $_REQUEST['level'];			
 				$sessionClass =  $_REQUEST['class'];
 				$en_term =  $_REQUEST['term'];
-				$RegDate = strtotime(date("Y-m-d H:i:s"));
+				$regDate =  date("Y-m-d H:i:s"); //strtotime(date("Y-m-d H:i:s"));
 				
 				list ($schoolAbbr, $regNum) = explode('/', $regNum);
 				list($sessionID, $class) = explode('-', $sessionClass);
