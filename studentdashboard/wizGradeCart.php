@@ -100,7 +100,7 @@ if(!session_id()){
 		
 		if(isset($_REQUEST["remove_code"]) && isset($_SESSION["igweze_ebele"])){  /* remove item from shopping cart */ 		
 			
-    		$product_code   = filter_var($_REQUEST["remove_code"], FILTER_SANITIZE_STRING);  
+    		$product_code   = strip_tags($_REQUEST["remove_code"]);  
    			
 			$product = array();
 			
@@ -128,10 +128,10 @@ if(!session_id()){
 
 		if(isset($_POST["quantity"]) && isset($_POST["product_code"])){  /* add item to shopping cart */ 		
 
-			$product_code   = filter_var($_POST["product_code"], FILTER_SANITIZE_STRING); //product code
-			$product_qty    = filter_var($_POST["quantity"], FILTER_SANITIZE_NUMBER_INT); //product quantity
-			$product 		= array();
-			$found 			= false;
+			$product_code = strip_tags($_POST["product_code"]); //product code
+			$product_qty = strip_tags($_POST["quantity"]); //product quantity
+			$product = array();
+			$found 	= false;
 			/* fetch item from database using product code */
 			$statement = $mysqli_conn->prepare("SELECT p_title, p_price FROM $wizGradeProductTB WHERE pID=? LIMIT 1");
 			$statement->bind_param('s', $product_code);
