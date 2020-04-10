@@ -67,7 +67,7 @@ session_start();
 
 			/* script validation */
 			
-			if (($adminMail == '') || (!filter_var($adminMail, FILTER_VALIDATE_EMAIL))){
+			if (($adminMail == '') || (!validateMail($adminMail))){
 			
 				$msg_e = "Oooooooops Error, please enter a valid email address";
 			
