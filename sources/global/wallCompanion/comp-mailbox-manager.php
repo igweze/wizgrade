@@ -40,8 +40,8 @@
 		
 				/* script validation */
 				
-				$post_id = filter_var($_REQUEST["sendMailPosts"],FILTER_SANITIZE_NUMBER_INT); 
-				$member_id = filter_var($_REQUEST["Member"],FILTER_SANITIZE_NUMBER_INT); 
+				$post_id = strip_tags($_REQUEST["sendMailPosts"]); 
+				$member_id = strip_tags($_REQUEST["Member"]); 
 			
 				try {
 
@@ -137,9 +137,9 @@ IGWEZE;
 			
 			/* script validation */
 			
-			$post_id = filter_var($_REQUEST["sendMailComments"],FILTER_SANITIZE_NUMBER_INT); 
-			$comment_id = filter_var($_REQUEST["Comment"],FILTER_SANITIZE_NUMBER_INT); 
-			$member_id = filter_var($_REQUEST["Member"],FILTER_SANITIZE_NUMBER_INT); 
+			$post_id = strip_tags($_REQUEST["sendMailComments"]); 
+			$comment_id = strip_tags($_REQUEST["Comment"]); 
+			$member_id = strip_tags($_REQUEST["Member"]); 
 			$mailData = $post_id.'-'.$comment_id.'-'.$member_id;
 			$mailDataSE = $post_id.'_'.$comment_id.'_'.$member_id;
 
@@ -237,8 +237,8 @@ IGWEZE;
 		
 			/* script validation */
 			
-			$post_id = filter_var($_REQUEST["sendReportPosts"],FILTER_SANITIZE_NUMBER_INT); 
-			$member_id = filter_var($_REQUEST["Member"],FILTER_SANITIZE_NUMBER_INT);  
+			$post_id = strip_tags($_REQUEST["sendReportPosts"]); 
+			$member_id = strip_tags($_REQUEST["Member"]);  
 			
 				try {
 
@@ -314,9 +314,9 @@ IGWEZE;
 		
 			/* script validation */
 			
-			$post_id = filter_var($_REQUEST["sendReportComments"],FILTER_SANITIZE_NUMBER_INT); 
-			$comment_id = filter_var($_REQUEST["Comment"],FILTER_SANITIZE_NUMBER_INT); 
-			$member_id = filter_var($_REQUEST["Member"],FILTER_SANITIZE_NUMBER_INT); 
+			$post_id = strip_tags($_REQUEST["sendReportComments"]); 
+			$comment_id = strip_tags($_REQUEST["Comment"]); 
+			$member_id = strip_tags($_REQUEST["Member"]); 
 			$reportData = $post_id.'-'.$comment_id.'-'.$member_id;
 			$reportDataSE = $post_id.'_'.$comment_id.'_'.$member_id;
 

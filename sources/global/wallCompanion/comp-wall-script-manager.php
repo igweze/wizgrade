@@ -34,7 +34,7 @@
 
 		if(isset($_REQUEST["showEditPost"]) && strlen($_REQUEST["showEditPost"])> 0 && is_numeric($_REQUEST["showEditPost"])){
 		
-			$post_id = filter_var($_REQUEST["showEditPost"],FILTER_SANITIZE_NUMBER_INT); 
+			$post_id = strip_tags($_REQUEST["showEditPost"]); 
 
 			try {
 
@@ -220,7 +220,7 @@ IGWEZE;
 
 		if(isset($_REQUEST["deletePost"]) && strlen($_REQUEST["deletePost"])> 0 && is_numeric($_REQUEST["deletePost"])){
 		
-			$idToDelete = filter_var($_REQUEST["deletePost"],FILTER_SANITIZE_NUMBER_INT); 
+			$idToDelete = strip_tags($_REQUEST["deletePost"]); 
 
 			try {
 					
@@ -361,7 +361,7 @@ IGWEZE;
 		
 		if(isset($_REQUEST["likePostID"]) && strlen($_REQUEST["likePostID"])> 0 && is_numeric($_REQUEST["likePostID"])){
 		
-			$post_id = filter_var($_REQUEST["likePostID"],FILTER_SANITIZE_NUMBER_INT); 
+			$post_id = strip_tags($_REQUEST["likePostID"]); 
 
 			try {
 					
@@ -426,7 +426,7 @@ IGWEZE;
 
 		if(isset($_REQUEST["likeDetails"]) == 'postlikeDetails'){
 		
-			$post_id = filter_var($_REQUEST["likePost"],FILTER_SANITIZE_NUMBER_INT); 
+			$post_id = strip_tags($_REQUEST["likePost"]); 
 
 			try {
 					
@@ -452,7 +452,7 @@ IGWEZE;
 		
 		if(isset($_REQUEST["deleteComment"]) && strlen($_REQUEST["deleteComment"])> 0 && is_numeric($_REQUEST["deleteComment"])){		
 		
-			$cIDToDelete = filter_var($_REQUEST["deleteComment"],FILTER_SANITIZE_NUMBER_INT); 
+			$cIDToDelete = strip_tags($_REQUEST["deleteComment"]); 
 
 			try {
 					
@@ -505,7 +505,7 @@ IGWEZE;
 
 		if(isset($_REQUEST["dislikePostID"]) && strlen($_REQUEST["dislikePostID"])> 0 && is_numeric($_REQUEST["dislikePostID"])){
 		
-			$post_id = filter_var($_REQUEST["dislikePostID"],FILTER_SANITIZE_NUMBER_INT); 
+			$post_id = strip_tags($_REQUEST["dislikePostID"]); 
 
 			try {
 
@@ -548,7 +548,7 @@ IGWEZE;
 		
 		if(isset($_REQUEST["likecommentID"]) && strlen($_REQUEST["likecommentID"])> 0 && is_numeric($_REQUEST["likecommentID"])){
 		
-			$comment_id = filter_var($_REQUEST["likecommentID"],FILTER_SANITIZE_NUMBER_INT); 
+			$comment_id = strip_tags($_REQUEST["likecommentID"]); 
 
 			try {
 
@@ -614,7 +614,7 @@ IGWEZE;
 
 		if(isset($_REQUEST["dislikecommentID"]) && strlen($_REQUEST["dislikecommentID"])> 0 && is_numeric($_REQUEST["dislikecommentID"])){
 		
-			$comment_id = filter_var($_REQUEST["dislikecommentID"],FILTER_SANITIZE_NUMBER_INT); 
+			$comment_id = strip_tags($_REQUEST["dislikecommentID"]); 
 
 			try {
 
@@ -660,7 +660,7 @@ IGWEZE;
 
 		if(isset($_REQUEST["numOfCommentDiv"]) && strlen($_REQUEST["numOfCommentDiv"])> 0 && is_numeric($_REQUEST["numOfCommentDiv"])){
 		
-				$post_id = filter_var($_REQUEST["numOfCommentDiv"],FILTER_SANITIZE_NUMBER_INT); 
+				$post_id = strip_tags($_REQUEST["numOfCommentDiv"]); 
 
 				try {
 
