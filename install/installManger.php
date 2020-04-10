@@ -43,8 +43,7 @@
 				$duser = preg_replace("/[^A-Za-z0-9_.]/", "", $_REQUEST['duser']);
 				$dpassword = strip_tags($_REQUEST['dpassword']);
 				$install = strip_tags($_REQUEST['install']);
-				
-				$url = filter_var($url, FILTER_SANITIZE_URL); 				
+								
 				$email = strtolower($email);
 
 				/* script validation */ 
@@ -57,7 +56,7 @@
          		
 					$msg_e  = "Ooooooooops, please enter last name";
 	   			
-				}elseif (($email == '') || (!filter_var($email, FILTER_VALIDATE_EMAIL))){
+				}elseif ($email == ''){
          		
 					$msg_e_r = "Ooooooooops, please enter a valid email address";
 	   			
@@ -65,7 +64,7 @@
          		
 					$msg_e  = "Ooooooooops, please enter admin password";
 	   			
-				}elseif (!filter_var($url, FILTER_VALIDATE_URL, FILTER_FLAG_HOST_REQUIRED)) {
+				}elseif (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$url)){
 					
 					$msg_e  = "Ooooooooops, please enter a valid full url eg http://www.wizgrade.com or http://www.school.wizgrade.com";
 	   			
