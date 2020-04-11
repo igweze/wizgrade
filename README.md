@@ -75,7 +75,8 @@ For a live demo <a href="https://www.k12.wizgrade.com">Click Here</a>
 <li> Kindly follow installation steps. Note: You have to manually create your database & input  it in the required field/input</li>
 <li>After successful installation, login as admin to customize wizGrade</li>
 </ol>
- 
+<p>NOTE : You require PHP Version greater than <b>5</b> or below <b>7.0.8</b> for this script to work good. However, we are upgrading latest PHP version soon !</p>
+       
 <h1 style="color:#551A8B !important;">Donate</h1>
 If you liked wizGrade and want to donate please <a href="https://www.wizgrade.com/?q=i#donate">Click Here</a>
 
