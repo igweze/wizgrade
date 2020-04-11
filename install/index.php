@@ -218,11 +218,12 @@
 						 
 						<?php
 
-						if (phpversion() < '5.0') {
-							$app_error = 'You need to use PHP5 or above for this script!<br />'; 
+						if ((phpversion() < '5.0') || (phpversion() > '7.0.8')) {
+							$app_error = 'You require PHP Version greater than <b>5</b> or below <b>7.0.8</b> 
+							for this script to work good. However, we are upgrading latest PHP version soon !<br />'; 
 						}
 						if (ini_get('session.auto_start')) {
-							$app_error .= 'Our site will not work with session.auto_start enabled!<br />'; 
+							$app_error .= 'Your site will not work with session.auto_start enabled!<br />'; 
 						}
 						if (!extension_loaded('mysqli')) {
 							$app_error .= 'MySQL extension needs to be loaded for this script to work!<br />';
@@ -255,9 +256,13 @@
 						<tr>
 						<td>PHP Version:</td>
 						<td><?php echo phpversion(); ?></td>
-						<td>5.0+</td>
-						<td><?php echo (phpversion() >= '5.0') ? 
-						'<i class="fa fa-check-square-o fa-lg gicon"></i>' : '<i class="fa fa-times-rectangle-o fa-lg bicon"></i>'; ?></td>
+						<td> > 5.0  < 7.0.8 </td>
+						<td><?php if ((phpversion() < '5.0') || (phpversion() > '7.0.8')) { ?> 
+						<i class="fa fa-times-rectangle-o fa-lg bicon"></i>
+						<?php }else{ ?>
+						<i class="fa fa-check-square-o fa-lg gicon"></i>
+						<?php } ?>
+						</td>
 						</tr>
 						<tr>
 						<td>Session Auto Start:</td>
