@@ -257,9 +257,9 @@ $wizGradeInfo = "<?php \n\n
 							  `recov_info` varchar(50) DEFAULT NULL,
 							  `recov_time` int(15) DEFAULT NULL,
 							  `a_grade` enum('editor','senator','general') NOT NULL,
-							  `a_unique` int(10) NOT NULL,
+							  `a_unique` int(10) DEFAULT NULL,
 							  `a_limit` varchar(40) DEFAULT NULL,
-							  `a_level` enum('1','2','3','4','5') NOT NULL,
+							  `a_level` enum('1','2','3','4','5') DEFAULT NULL,
 							  `cw_rank` enum('2','3','4','5') DEFAULT NULL
 							) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 							
