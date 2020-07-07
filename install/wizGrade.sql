@@ -2736,7 +2736,7 @@ CREATE TABLE `wizgrade_cw_ireport` (
   `report_idgsi` text NOT NULL,
   `reporting_user_idgsi` int(11) NOT NULL DEFAULT '0',
   `reported_user_idgsi` int(11) NOT NULL DEFAULT '0',
-  `date_idgsi` datetime NOT NULL,
+  `date_idgsi` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
