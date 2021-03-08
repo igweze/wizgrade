@@ -39,7 +39,7 @@
 
 
 				$title = preg_replace("/[^A-Za-z0-9]/", "", $_REQUEST['title']);
-				$ranking = preg_replace("/[^A-Za-z0-9]/", "", $_REQUEST['ranking']);
+				//$ranking = preg_replace("/[^A-Za-z0-9]/", "", $_REQUEST['ranking']);
 				$lname = preg_replace("/[^A-Za-z0-9]/", "", $_REQUEST['lname']);
 				$fname = preg_replace("/[^A-Za-z0-9]/", "", $_REQUEST['fname']);
 				$mname = preg_replace("/[^A-Za-z0-9]/", "", $_REQUEST['mname']);
@@ -67,15 +67,14 @@
 		 			try {
 		 				 														
 			
-						$ebele_mark = "INSERT INTO $staffTB (i_title, rank, i_lastname,  i_firstname,
-																	  i_midname, status) 
+						$ebele_mark = "INSERT INTO $staffTB (i_title, i_lastname, i_firstname, i_midname, status) 
 									
-										VALUES(:i_title, :rank, :i_lastname, :i_firstname, :i_midname, :status)";
+										VALUES(:i_title, :i_lastname, :i_firstname, :i_midname, :status)"; 
 										
 						$igweze_prep = $conn->prepare($ebele_mark);								
 						
 						$igweze_prep->bindValue(':i_title', $title);
-						$igweze_prep->bindValue(':rank', $ranking);								
+						//$igweze_prep->bindValue(':rank', $ranking); :rank,  rank,							
 						$igweze_prep->bindValue(':i_lastname', $lname);
 						$igweze_prep->bindValue(':i_firstname', $fname);
 						$igweze_prep->bindValue(':i_midname', $mname);
@@ -212,7 +211,7 @@ IGWEZE;
 
 				$teacherID = preg_replace("/[^A-Za-z0-9]/", "", $_REQUEST['teacherID']);
 				$title = preg_replace("/[^A-Za-z0-9]/", "", $_REQUEST['title']);
-				$ranking = preg_replace("/[^A-Za-z0-9]/", "", $_REQUEST['ranking']);
+				//$ranking = preg_replace("/[^A-Za-z0-9]/", "", $_REQUEST['ranking']);
 				$fname = preg_replace("/[^A-Za-z0-9]/", "", $_REQUEST['fname']);
 				$mname = preg_replace("/[^A-Za-z0-9]/", "", $_REQUEST['mname']);
 				$lname = preg_replace("/[^A-Za-z0-9]/", "", $_REQUEST['lname']);
@@ -274,8 +273,8 @@ IGWEZE;
 										i_gender = :i_gender,
 										i_dob = :i_dob,
 										bloodgp = :bloodgp,
-										genotype = :genotype,
-										rank = :rank
+										genotype = :genotype 
+										
 										
 										WHERE t_id = :t_id";
 										
@@ -289,7 +288,7 @@ IGWEZE;
 						$igweze_prep->bindValue(':i_dob', $dateofbirth);
 						$igweze_prep->bindValue(':bloodgp', $bloodgr);
 						$igweze_prep->bindValue(':genotype', $genotype);
-						$igweze_prep->bindValue(':rank', $ranking);
+						//$igweze_prep->bindValue(':rank', $ranking); rank = :rank
 						$igweze_prep->bindValue(':t_id', $teacherID);
 												
 						if ($igweze_prep->execute()) {  /* if sucessfully */ 
