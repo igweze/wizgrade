@@ -1,6 +1,6 @@
 # wizGrade School Management System 
 
-<b>*Please, wizgrade website (https://www.wizgrade.com) is undergoing some updates *</b>
+<b>*Please, wizgrade website (https://www.wizgrade.com) is undergoing upgrades *</b>
 
 <b>wizGrade</b> is Best Rated Open Source School Management System for Nursery, Primary and Secondary (K-12) School, Universities, Polytechnics, College of Educations, Awarding Institute e.t.c.
 
