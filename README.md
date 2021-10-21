@@ -14,7 +14,7 @@ Our main aim is to help automate schools especially in Africa and the world at l
 
 
 <h1 style="color:#551A8B">wizGrade  Features</h1>
-<center><img src="https://www.wizgrade.com/images/features.jpg"height="340" width="500"></center>
+<center><img src="https://www.wizgrade.com/features.jpg"height="340" width="500"></center>
 
 <ol> 
 <li>100% web, mobile, tablet responsive screen & wizGrade Themes</li>
