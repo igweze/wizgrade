@@ -1,6 +1,6 @@
 # wizGrade School Management System 
 
-<b>*Please, wizgrade website (https://www.wizgrade.com) is undergoing upgrades *</b>
+<b>*Please, wizgrade school manager is undergoing latest technical upgrades both designs and development, suggestions on new features to be added etc. should be forwarded to my WhatsApp - +234 803 071 6751*</b>
 
 <b>wizGrade</b> is Best Rated Open Source School Management System for Nursery, Primary and Secondary (K-12) School, Universities, Polytechnics, College of Educations, Awarding Institute e.t.c.
 
