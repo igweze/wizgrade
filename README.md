@@ -13,8 +13,7 @@ Our main aim is to help automate schools especially in Africa and the world at l
 <b>wizGrade</b> is designed and Developed by <b>Igweze Ebele Mark</b> and is released under the Apache License 2.0 
 
 
-<h1 style="color:#551A8B">wizGrade  Features</h1>
-<center><img src="https://www.wizgrade.com/features.jpg"height="340" width="500"></center>
+<h1 style="color:#551A8B">wizGrade  Features</h1> 
 
 <ol> 
 <li>100% web, mobile, tablet responsive screen & wizGrade Themes</li>
