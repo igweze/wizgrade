@@ -66,7 +66,7 @@ Our main aim is to help automate schools especially in Africa and the world at l
 </ol>
 
 <h1 style="color:#551A8B !important;">Live Demo</h1>
-For a live demo <a href="https://www.k12.wizgrade.com">Click Here</a>
+For a live demo - Coming Soon
 
 <h1 style="color:#551A8B !important;">Installation Note</h1>
 <ol>
@@ -80,7 +80,7 @@ For a live demo <a href="https://www.k12.wizgrade.com">Click Here</a>
 <p>NOTE : You require PHP Version greater than <b>5</b> or below <b>7.0.8</b> for this script to work good. However, we are upgrading latest PHP version soon !</p>
        
 <h1 style="color:#551A8B !important;">Donate</h1>
-If you liked wizGrade and want to donate please <a href="https://www.wizgrade.com/?q=i#donate">Click Here</a>
+Coming Soon
 
 <h1 style="color:#551A8B !important;">Our Website</h1>
-<a href="https://www.wizgrade.com">Click Here</a>
+Coming Soon 
