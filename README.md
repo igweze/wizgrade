@@ -84,8 +84,7 @@ For a live demo - Coming Soon
 
 <h6 style="color:blue !important;"> </h6>Please kindly donate to support and appreciate wizGrade Project, any amount is highly welcome.</h6>
 
- 
-<form action="https://www.paypal.com/donate" method="post" target="_top"> <!-- Identify your business so that you can collect the payments. --> <input type="hidden" name="business" value="igweze@gmail.com"> <!-- Specify details about the contribution --> <input type="hidden" name="no_recurring" value="0"> <input type="hidden" name="item_name" value="wizGrades Support"> <input type="hidden" name="item_number" value="wizGrades Support Project"> <input type="hidden" name="currency_code" value="USD"> <!-- Display the payment button. --> <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate"> <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" ></form>
+ <h6 style="color:blue !important;"><a href="https://www.paypal.com/donate/?hosted_button_id=AZYDYHBJEFYE4" target="_blank">Donate Here</a></h6>
  
 
 <h1 style="color:#551A8B !important;">Our New Website</h1>
