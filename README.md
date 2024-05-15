@@ -1,6 +1,6 @@
 # wizGrade School Management System 
 
-<b>*Please, wizgrade school manager is undergoing latest technical upgrades both designs and development, suggestions on new features to be added etc. should be forwarded to my WhatsApp - +234 803 071 6751*</b>
+<b>*Please, wizgrade school manager is undergoing latest technical upgrades both designs and development, suggestions on new features to be added etc. should be forwarded to my WhatsApp - +234 803 071 6751 or email - igweze@gmail.com *. The Realease date for wizGrade V1.3 is 1st June, 2024</b>
 
 <b>wizGrade</b> is Best Rated Open Source School Management System for Nursery, Primary and Secondary (K-12) School, Universities, Polytechnics, College of Educations, Awarding Institute e.t.c.
 
@@ -10,7 +10,9 @@ Our main aim is to help automate schools especially in Africa and the world at l
 
 <b>wizGrade</b> formally known as SDOSMS is developed with HTML, CSS, JQuery, JavaScript, AJAX, JSON, PDO, PHP and MySQL
 
-<b>wizGrade</b> is designed and Developed by <b>Igweze Ebele Mark</b> and is released under the Apache License 2.0 
+<b>wizGrade</b> is designed, developed and maintain by <b>Igweze Ebele Mark</b> and is released under the Apache License 2.0 
+
+<b>wizGrade</b> Universities, Polytechnics, College of Educations, Awarding Institute e.t.c. version is offline @ the moment but will be online soon!.
 
 
 <h1 style="color:#551A8B">wizGrade  Features</h1> 
@@ -79,7 +81,12 @@ For a live demo - Coming Soon
 <p>NOTE : You require PHP Version greater than <b>5</b> or below <b>7.0.8</b> for this script to work good. However, we are upgrading latest PHP version soon !</p>
        
 <h1 style="color:#551A8B !important;">Donate</h1>
-Coming Soon
 
-<h1 style="color:#551A8B !important;">Our Website</h1>
+<h6 style="color:blue !important;"> </h6>Please kindly donate to support and appreciate wizGrade Project, any amount is highly welcome.</h6>
+
+ 
+<form action="https://www.paypal.com/donate" method="post" target="_top"> <!-- Identify your business so that you can collect the payments. --> <input type="hidden" name="business" value="igweze@gmail.com"> <!-- Specify details about the contribution --> <input type="hidden" name="no_recurring" value="0"> <input type="hidden" name="item_name" value="wizGrades Support"> <input type="hidden" name="item_number" value="wizGrades Support Project"> <input type="hidden" name="currency_code" value="USD"> <!-- Display the payment button. --> <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate"> <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" ></form>
+ 
+
+<h1 style="color:#551A8B !important;">Our New Website</h1>
 Coming Soon 
