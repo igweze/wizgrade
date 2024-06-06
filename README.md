@@ -1,6 +1,6 @@
 # wizGrade School Management System 
 
-<b>*Please, wizgrade school manager is undergoing latest technical upgrades both designs and development, suggestions on new features to be added etc. should be forwarded to my WhatsApp - +234 803 071 6751 or email - igweze@gmail.com *. The Realease date for wizGrade V1.3 is 1st June, 2024</b>
+<b>*Please, wizgrade school manager is undergoing latest technical upgrades both designs and development, suggestions on new features to be added etc. should be forwarded to my WhatsApp - +234 803 071 6751 or email - igweze@gmail.com *. The New realease date for wizGrade V1.3 is June, 2024. I aplologise for the delay</b>
 
 <b>wizGrade</b> is Best Rated Open Source School Management System for Nursery, Primary and Secondary (K-12) School, Universities, Polytechnics, College of Educations, Awarding Institute e.t.c.
 
