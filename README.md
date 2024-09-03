@@ -59,21 +59,22 @@ Our main aim is to help automate schools especially in Africa and the world at l
 For a live demo visit - https://www.demo.fobrain.com
 
 <h1 style="color:#551A8B !important;">Screen Shoots</h1>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__1.png" alt="fobrain Open Source Screen Shoots" /></li>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__2.png" alt="fobrain Open Source Screen Shoots" /></li>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__3.png" alt="fobrain Open Source Screen Shoots" /></li>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__4.png" alt="fobrain Open Source Screen Shoots" /></li>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__5.png" alt="fobrain Open Source Screen Shoots" /></li>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__6.png" alt="fobrain Open Source Screen Shoots" /></li>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__7.png" alt="fobrain Open Source Screen Shoots" /></li>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__8.png" alt="fobrain Open Source Screen Shoots" /></li>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__9.png" alt="fobrain Open Source Screen Shoots" /></li>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__10.png" alt="fobrain Open Source Screen Shoots" /></li>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__11.png" alt="fobrain Open Source Screen Shoots" /></li>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__12.png" alt="fobrain Open Source Screen Shoots" /></li>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__13.png" alt="fobrain Open Source Screen Shoots" /></li>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__14.png" alt="fobrain Open Source Screen Shoots" /></li>
-<li><img scr="https://www.fobrain.com/github/fobrain__shot__15.png" alt="fobrain Open Source Screen Shoots" /></li>
+
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__1.png" alt="fobrain Shots" /></li>
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__2.png" alt="fobrain Shots" /></li>
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__3.png" alt="fobrain Shots" /></li>
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__4.png" alt="fobrain Shots" /></li>
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__5.png" alt="fobrain Shots" /></li>
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__6.png" alt="fobrain Shots" /></li>
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__7.png" alt="fobrain Shots" /></li>
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__8.png" alt="fobrain Shots" /></li>
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__9.png" alt="fobrain Shots" /></li>
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__10.png" alt="fobrain Shots" /></li>
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__11.png" alt="fobrain Shots" /></li>
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__12.png" alt="fobrain Shots" /></li>
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__13.png" alt="fobrain Shots" /></li>
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__14.png" alt="fobrain Shots" /></li>
+<li><img scr="https://www.fobrain.com/github/fobrain__shot__15.png" alt="fobrain Shots" /></li>
 
 
 <h1 style="color:#551A8B !important;">Installation Note</h1>
