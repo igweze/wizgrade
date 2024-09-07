@@ -1,16 +1,19 @@
 # fobrain School Manager
 
-<p>NOTE : Requires PHP Version greater than <b>7</b> or below <b>8.3.11</b></p>
+<b>fobrain</b> formerly <b>wizGrade</b> is a PHP School Management System for K-12 School ( Nursery, Primary and Secondary). 
 
-<b>fobrain</b> is a PHP School Management System for K-12 School ( Nursery, Primary and Secondary)  and a  complete, and flexible solution for school management and administration.
+It's a complete, robust and flexible solution for school management and administration.
 
-Our main aim is to help automate schools especially in Africa and the world at large for free.
+<p>It requires PHP Version greater than <b>7</b> or below <b>8.3.11</b></p>
 
-<b>fobrain</b> formally known as wizGrade is developed with HTML, CSS, JQuery, JavaScript, AJAX, JSON, PDO, PHP and MySQL
-
+For more features, stable and upgraded code version kindly use <b>fobrain PRO version</b> @ https://www.fobrain.com
+ 
 <b>fobrain</b> is designed, developed and maintain by <b>Igweze Ebele Mark</b> and is released under the Apache License 2.0 
 
 <b>fobrain</b> Universities, Polytechnics, College of Educations, Awarding Institute e.t.c. version is offline @ the moment but will be online soon!. 
+
+<h1 style="color:#551A8B !important;">Live Demo</h1>
+For a live demo visit - https://www.demo.fobrain.com
 
 <h1 style="color:#551A8B">Some fobrain Features</h1> 
 
@@ -53,10 +56,7 @@ Our main aim is to help automate schools especially in Africa and the world at l
 <li>Student E-wallet</li>
 <li>Customizable Student Grades</li>
 <li>fobrain Other Amazing Features</li>
-</ol>
-
-<h1 style="color:#551A8B !important;">Live Demo</h1>
-For a live demo visit - https://www.demo.fobrain.com
+</ol>  
 
 <h1 style="color:#551A8B !important;">Screen Shoots</h1>
 
