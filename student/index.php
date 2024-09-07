@@ -226,16 +226,8 @@ if(!session_id()){
 								<i class="fa fa-chevron-right"></i> Calendar View</a></li>	 
 								
 							</ul>
-						</li> 
-						 
-
-						<li class="wizGradeMenu">
-						  <a class="tpMenu"  href="javascript:;" id="shopping" >
-							  <i class="fa fa-shopping-cart"></i>
-							  <span>School Shop </span>
-						  </a>
-
-						</li>
+						</li>  
+ 
 
 						<li class="sub-menu">
 						  <a href="javascript:;" >
@@ -498,15 +490,7 @@ if(!session_id()){
 					  </a>
 					  
 					</li>
-					<?php  if($rsType == $fiVal){ ?>
-					<li class="wizGradeMenu">
-					  <a href="javascript:;" id="bestStudents" >
-						  <i class="fa fa-users"></i>
-						  <span>Best Student/s Result</span>
-					  </a>
-					  
-					</li>
-					<?php  } ?>
+					 
 					<li class="sub-menu">
 					  <a href="javascript:;" >
 						  <i class="fa fa-check-square-o"></i>
@@ -522,15 +506,8 @@ if(!session_id()){
 						  
 						  
 					  </ul>
-					</li> 
-
-					<li class="wizGradeMenu">
-					  <a href="javascript:;" id="shopping" >
-						  <i class="fa fa-shopping-cart"></i>
-						  <span>School Shop </span>
-					  </a>
-
-					</li>
+					</li>  
+				 
 
 					<li class="sub-menu">
 					  <a href="javascript:;" >
