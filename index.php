@@ -207,8 +207,7 @@ IGWEZE;
 						<select name="loginType" id ="loginTypeQ" class="form-control"  style="margin-bottom: 30px; border: 1px solid #333;">
 						<option value=""> Login As </option>
 						<option value="student-login">Student </option>
-						<option value="parent-login">Parent </option>  
-						<option value="bursary">Bursary</option>
+						<option value="parent-login">Parent </option> 
 						<option value="librainain">Libraian</option>
 						<option value="staff-login">Class Teacher</option>									
 						<option value="principal">School Head</option>       
