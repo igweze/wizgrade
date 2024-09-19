@@ -1,0 +1,18 @@
+RewriteEngine on 
+ 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+
+ErrorDocument 401 https://www.fobrain.com/404
+ErrorDocument 403 https://www.fobrain.com/404
+ErrorDocument 404 https://www.fobrain.com/404
+ErrorDocument 500 https://www.fobrain.com/404  
+
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=60, public"
+</filesMatch>
+
+Options -Indexes
