@@ -90,10 +90,7 @@ For a live demo visit - https://www.demo.fobrain.com
        
 <h1 style="color:#551A8B !important;">Donate</h1>
 
-<h6 style="color:blue !important;"> </h6>Please kindly donate to support and appreciate fobrain Project, any amount is highly welcome.</h6>
-
- <h6 style="color:blue !important;"><a href="https://www.paypal.com/donate/?hosted_button_id=AZYDYHBJEFYE4" target="_blank">Donate Here</a></h6> 
- 
+<h6 style="color:blue !important;"> </h6>Please kindly donate to support and appreciate fobrain Project, any amount is highly welcome.</h6> 
 
 <h1 style="color:#551A8B !important;">Website</h1>
 https://www.fobrain.com
