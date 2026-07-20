@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+This project support has been discontinued and is being phased out. Kindly utilize the stable, more feature-rich, and updated <b>FoBrain Version.</b> @ [GitHub - https://github.com/igweze/fobrain](https://github.com/igweze/fobrain)
+
 # fobrain School Manager
 
 <b>fobrain</b> formerly <b>wizGrade</b> is a PHP School Management System for K-12 School ( Nursery, Primary and Secondary). 
@@ -6,7 +9,7 @@ It's a complete, robust, and flexible solution for school management and adminis
 
 <p>It requires PHP Version greater than <b>7</b> or below <b>8.3.11</b></p>
 
-For more features, stable and upgraded code version, kindly use <b>fobrain version</b> @ [gitHub](https://github.com/igweze/fobrain)
+For more features, stable and upgraded code version, kindly use <b>fobrain version</b> @ [GitHub](https://github.com/igweze/fobrain)
  
 <b>fobrain</b> is designed, developed and maintain by <b>Igweze Ebele Mark</b> and is released under the Apache License 2.0 
 
